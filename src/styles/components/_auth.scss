@@ -1,0 +1,60 @@
+
+.auth_contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 20px 10px 20px;
+  background: $blanco ;
+  width: 250px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+.auth_title {
+  margin-top: 10px;
+  color: $dark-grey;
+}
+
+.auth_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.auth_google-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.auth_google-box p{
+  font-size: 10px;
+}
+
+.auth_input{
+  height: 25px;
+  border: none;
+  border-bottom:1px solid $whithe-gray;
+  transition: border-bottom  .50s ease;
+  padding-left: 10px;
+  
+  &:focus{
+    outline:none;
+    border-bottom:1px solid $primary;
+   
+    background: linear-gradient(to bottom, rgba(146, 8, 8, 0), lighten($color: $primary, $amount:70));
+  
+  }
+    
+  }

@@ -1,0 +1,53 @@
+$white: #fff
+$google-blue: #4285f4
+$button-active-blue: #1669f2
+
+.btn_google-btn 
+    cursor: pointer
+    margin-top: 5px
+    background-color: #4285f4
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25)
+    transition: box-shadow .3s ease
+    height: 25px
+    display: flex
+    width: 100%;
+    align-items: center
+    justify-content: space-between
+
+    .google-icon-wrapper
+        background-color: $white
+        height: 42px
+        width: 42px
+        display: flex
+        align-items: center
+        justify-content: center
+
+    .google-icon 
+        width: 22px
+    
+    .btn_text-sign 
+        padding: 0 14px
+        color: $white
+        font-size: 12px
+        letter-spacing: 0.2px
+    
+    &:hover 
+        box-shadow: 0 0 6px $google-blue
+    
+    &:active 
+        background: $button-active-blue
+
+
+.btn_login
+    background: $primary
+    border: none
+    color: $blanco
+    height: 20px
+    
+    &:hover
+        box-shadow: 0 0 6px lighten($color : $primary, $amount: 5 )
+    
+    &:active
+        background: darken($color : $primary, $amount: 15 )
+        
+    
