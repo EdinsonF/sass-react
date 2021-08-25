@@ -1,0 +1,33 @@
+
+.entries_box{
+  @include boxCreate(60% , 350px , space-evenly);
+}
+
+.entries_title {
+  margin-top: 10px;
+  color: $dark-grey;
+}
+
+.entries_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
+
+.entries_input{
+
+  @include inputCreate;
+
+  }
+
+  .entries_textarea{
+  @include inputCreate(80px , 10px 10px 0 10px);
+
+    
+    resize: none;
+    text-align: justify;
+    font-size: 14px;
+      
+    }

@@ -20,7 +20,7 @@ function Sidebar() {
       </div>
 
       <div className="sidebar_list-entry mt-15">
-        { entries.map((index, entry) =>{
+        { entries.map((entry, index) =>{
           return <Entry key={index}/>
         })}
       </div>

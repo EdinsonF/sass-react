@@ -1,3 +1,4 @@
+import AddNewEntry from "./AddNewEntry"
 import NothingSelect from "./NothingSelect"
 import Sidebar from "./Sidebar"
 
@@ -9,7 +10,13 @@ const JournalScreen = () => {
       <Sidebar/>
 
       <div className="main_container">
-        <NothingSelect/>
+
+        {/* cUANDO VA AGREGAR UNA NOTA */}
+        <AddNewEntry/>
+        {/* CUANDO HAY ALGO SELECIONADO */}
+
+        {/* CUANDO NO HAY NADA SELECCIONADO */}
+        {/* <NothingSelect/> */}
       </div>
       </div>
       </>

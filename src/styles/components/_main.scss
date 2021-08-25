@@ -3,10 +3,23 @@
   grid-column: 3/11;
   grid-row: 1/11;
   background: $primary;
+  justify-content: center;
+  align-items: center;
   
 
 }
 
 .main_select-nothing{
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $blanco;
+  i{
+    font-size: 60px;  
+  }
+  h1{
+    
+    font-size: 18px;
+  }
 }
